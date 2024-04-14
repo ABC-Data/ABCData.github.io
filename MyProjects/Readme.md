@@ -1,5 +1,6 @@
 # Projects:
 ## Year 1 part 1 	| ProjectGolf
+![SneakPeek](MyProjects/images/ProjectGolf/Level1.gif)
 ### Description:
 A simple Mini-Golf game created using C-Processing library that is provided by Digipen.
 ### What I have worked on:
