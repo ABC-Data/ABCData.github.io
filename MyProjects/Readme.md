@@ -1,5 +1,5 @@
-Projects:
-Year 1 part 1 	| ProjectGolf
+# Projects:
+ ## Year 1 part 1 	| ProjectGolf
 			Description:
 				A simple Mini-Golf game created using C-Processing library that is provided by Digipen.
 			What I have worked on:
@@ -7,7 +7,7 @@ Year 1 part 1 	| ProjectGolf
 				- Worked on the physics of the game.
 				- Designing and implementation of stages.
 
-Year 1 part 2 	| Waddle Crusaders
+## Year 1 part 2 	| Waddle Crusaders
 			Description:
 				A 2D turn-based top-down tatical strategy game with varying levels, allowing players to choose from multiple unit types to bring into battle and arrange them to outsmart enemies. 
 				Using Alpha Engine as provided by Digipen faculty.
@@ -16,7 +16,7 @@ Year 1 part 2 	| Waddle Crusaders
 				- Implementation of sound in the game using the FMOD library.
 				- Implementation of a Input system with interactions to the keyboard.
 
-Year 2	      	| Derelict Land
+## Year 2	      	| Derelict Land
 			Description:
 				A 2D adventure side scroller with real-time 'turn-based' combat where players use items in their inventory to defeat enemies.
 				Using Omega Engine created by the technical team of the project.
@@ -28,7 +28,7 @@ Year 2	      	| Derelict Land
 				- Implementation of a Animation system to animate spritesheets.
 				- Implementation of a Assets Manager for the management of all assets handled within the 2D Game Engine.
 
-Year 3	      	| Epilogue
+## Year 3	      	| Epilogue
 			Description:
 				A first-person stealth game, casting players in the role of Olivier, a thief with the unique ability to manipulate time, slowing it down.
 				Using Takeoff Engine created by the technical team of the project.
