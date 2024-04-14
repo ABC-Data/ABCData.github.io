@@ -9,7 +9,8 @@ A simple Mini-Golf game created using C-Processing library that is provided by D
 - Designing and implementation of stages.
 
 ## Year 1 part 2 	| Waddle Crusaders
-![SneakPeek](Mimages/WaddleCrusaders/1.gif)
+![SneakPeek](images/WaddleCrusaders/1.png)
+![SneakPeek](images/WaddleCrusaders/2.png)
 ### Description:
 A 2D turn-based top-down tatical strategy game with varying levels, allowing players to choose from multiple unit types to bring into battle and arrange them to outsmart enemies. 
 Using Alpha Engine as provided by Digipen faculty.
