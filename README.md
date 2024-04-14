@@ -1,5 +1,5 @@
 # ABCData
- My Portfolio
+ My Portfolio (View MyProjects folder for more details on the projects I have worked on)
 ## About me
 I am an aspiring game developer/programmer currently studying as a student. I am passionate about creating immersive gaming experiences and exploring new technologies in game development.
 ## Skills
