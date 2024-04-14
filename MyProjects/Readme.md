@@ -1,6 +1,6 @@
 # Projects:
 ## Year 1 part 1 	| ProjectGolf
-![SneakPeek](MyProjects/images/ProjectGolf/Level1.gif)
+![SneakPeek](images/ProjectGolf/Level1.gif)
 ### Description:
 A simple Mini-Golf game created using C-Processing library that is provided by Digipen.
 ### What I have worked on:
@@ -9,7 +9,7 @@ A simple Mini-Golf game created using C-Processing library that is provided by D
 - Designing and implementation of stages.
 
 ## Year 1 part 2 	| Waddle Crusaders
-![SneakPeek](MyProjects/images/WaddleCrusaders/1.gif)
+![SneakPeek](Mimages/WaddleCrusaders/1.gif)
 ### Description:
 A 2D turn-based top-down tatical strategy game with varying levels, allowing players to choose from multiple unit types to bring into battle and arrange them to outsmart enemies. 
 Using Alpha Engine as provided by Digipen faculty.
@@ -19,7 +19,7 @@ Using Alpha Engine as provided by Digipen faculty.
 - Implementation of a Input system with interactions to the keyboard.
 
 ## Year 2	      	| Derelict Land
-![SneakPeek](MyProjects/images/DerelictLand/Logo.png)
+![SneakPeek](images/DerelictLand/1.gif)
 ### Description:
 A 2D adventure side scroller with real-time 'turn-based' combat where players use items in their inventory to defeat enemies.
 Using Omega Engine created by the technical team of the project.
@@ -32,7 +32,7 @@ Using Omega Engine created by the technical team of the project.
 - Implementation of a Assets Manager for the management of all assets handled within the 2D Game Engine.
 
 ## Year 3	      	| Epilogue
-![SneakPeek](MyProjects/images/Epilogue/TouchdownProductionLogo.png)
+![SneakPeek](images/Epilogue/TouchdownProductionLogo.png)
 ### Description:
 A first-person stealth game, casting players in the role of Olivier, a thief with the unique ability to manipulate time, slowing it down.
 Using Takeoff Engine created by the technical team of the project.
