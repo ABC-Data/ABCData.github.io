@@ -1,11 +1,11 @@
 # Projects:
- ## Year 1 part 1 	| ProjectGolf
-			Description:
-				A simple Mini-Golf game created using C-Processing library that is provided by Digipen.
-			What I have worked on:
-				- Programmed in C.
-				- Worked on the physics of the game.
-				- Designing and implementation of stages.
+## Year 1 part 1 	| ProjectGolf
+### Description:
+A simple Mini-Golf game created using C-Processing library that is provided by Digipen.
+### What I have worked on:
+- Programmed in C.
+- Worked on the physics of the game.
+- Designing and implementation of stages.
 
 ## Year 1 part 2 	| Waddle Crusaders
 			Description:
