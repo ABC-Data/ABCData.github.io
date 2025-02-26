@@ -1,0 +1,162 @@
+CLANDESTINE STUDIOS
+CSD2450
+DERELICT LAND
+MILESTONE 6
+
+/******************************/
+/*Usage of the Level Editor*/
+/*****************************/
+
+// Camera Movement
+
+Click and drag (MMB / RMB) or use the I, J, K, L keys to move the camera up, left, down, right respectively.
+
+// Game Mode
+
+Play button [>] at the top bar allows you to play the game by maximising the game window and hiding the other editor windows. Note that this is different from actual play mode. You can also press this button while playing to pause and return to editor mode. There is an option in the GameWindow menu bar called 'Play Maximised' where this maximising is disabled and the rest of the editor is left visible during gameplay.
+
+Pause [||] and stop [>|] buttons pause and stop the game like above.
+
+In Debug configuration:
+To exit the editor and enter into game mode with or without any editor elements present, press F5. Press F5 again to go back.
+
+In Release configuration:
+By default, the editor is set to not appear at all and is set at play mode from the start.
+
+// Adding a new GameObject
+
+1) Hover over the 'GameObject' tab in the menu bar at the top of the main window,
+
+2) Click the 'New GameObject' button in the dropdown menu. There is also a shortcut of CTRL+SHIFT+N avaliable to create one.
+
+There should be a new GameObject with its name shown in the hierarchy window, with relevant output text in the Logger window.
+When created, there should be a prompt to rename the newly created object named "GameObject" in the Hierarchy window.
+The GameObject created will only by default contain only a Transform component.
+
+// Deletion of a GameObject
+
+1) Right click on an existing GameObject's name in the hierarchy window.
+
+2) Click the 'Delete' button in the dropdown menu.
+
+3) Alternatively, pressing the 'Delete' key on the keyboard will also work.
+
+That GameObject will not be shown in the hierarchy. If its entity is active inside the application, it will not be seen anymore.
+The Logger will also output relevant text after deletion.
+
+(Note: The first Object, named the Camera, is intentionally left undeletable, as doing so may cause unintentional positional shifting of the Camera, but not a crash unless doing picking GameObjects w/ the mouse button.)
+
+// Cloning an existing GameObject
+
+1) Right click on an existing GameObject's name in the hierarchy window.
+
+2) Click the 'Duplicate' button in the dropdown menu.
+
+There is now a new GameObject created as shown in the hierarchy and the
+main application window. As a clone, the new clone will take the same properties
+as its source. (E.g., if the source is scaled 2x larger, said clone will follow as well.)
+
+The new clone is set to appear in the center of the main application window.
+
+// Inspector
+
+1) Click on any GameObject name in the hierachy. Click on its name again to rename it.
+The object's properties & components will show up in the Inspector window. Scripts, however,
+while shown, currently cannot be directly edited and / or hot reloaded.
+
+2) Most, if not all, of the values displayed in the Inspector can be modified by directly typing
+in the value, or by dragging the mouse around. The GameObject name can be changed in the
+top textbox, as well as its visibility via the checkbox next to it.
+
+3) In the current version, audio files and .PNG image files' data can be viewed in the inspector.
+
+// Hierarchy
+
+The hierarchy contains the names of the game objects present in the current game level. 
+There is a filter at the top of the hierarchy that allows the user to find game objects by name or for if a component type exists in the game objects. 
+
+The filter is toggled by dropdown, with the 2 options shown. It is default set to filter by name.
+
+To filter by name, just type in the name / characters in the name to search. Search is case-insensitive. To filter by component, click on the component in the dropdown menu.
+Only objects that match the filter will have its names shown in the hierarchy.
+
+/// Level Creation, Saving & Loading
+
+To create a new level, go to File->Create New Scene, or press CTRL+N. Set a name for the new scene and press Enter. This should create a new .scn file that should look like the EmptyScene.scn file. There should only be the Camera GameObject around in what is otherwise a black screen.
+
+To save the level state, press CTRL + S or go to File->Save Scene. This will save the level to ./Scene/<level name>.scn . The level name is what appears in the Hierarchy window as a collapsible item. Loading a scene can be done in two ways - either through the top menu bar (File->Load Scene), or through the file browser. Entering a .scn file will unload the current level, and load in the one selected by the user.
+
+// Tags
+
+Each game object has a tag variable. New tags can be changed via the + and - buttons in the dropdown menu in the inspector, or through the 'GameObject' section in the Menu Bar.
+
+// Layers
+
+On the top right, there is a "Layers" dropdown menu. With it, you can toggle the visibility of certain layers which the game objects are tagged to.
+Layers can be added or removed the same way as Tags. There are only 32 layers avaliable - this is hardcoded.
+
+// Rendering Order
+
+GameObjects that have a Transform component have a variable 'Depth' that decides its rendering order. 
+Objects with higher Depth values are rendered on top of those with lower ones.
+
+// File Browser
+
+On the bottom left, there is a file browser where you can browse the file directory. You can click on files (particularly text files) to view their contents in the Inspector window, but you cannot edit them in-editor at present. However, double clicking the file will call on the Windows API to open it via the ShellExecuteA() function.
+
+In addition, imported textures (but not yet animations) or audio can be previewed by clicking on their file name in the browser. A preview of their data will then be shown. 
+Textures may be directly rendered by STBI if the asset previewer cannot find it in the asset database.
+
+/// Importing / Deleting Assets
+
+Texture assets like individual sprites or spritesheets, in the .PNG format, may now be imported directly w/o immediate editing of the .txt files. 
+To import an asset, go to Assets->Import New Texture / Audio. Successful imports will see the input file inside the "Images" / "Audio" folder. 
+Note that currently, imported assets are not grouped into groups but within their group as a whole. 
+In other words, the imported assets are not expected to have subdirectories. To do so, the .txt will have to directly modified.
+
+Imported textures & audio may also be deleted. Go to Assets -> Delete... in the menu bar to do so. Select the target asset from the dropdown given and delete it.
+
+/// Camera Focus
+
+While having a selected GameObject, press 'F' to have the camera center focus on it. The selected GameObject will then be positioned in the center of the game window, and the Camera game object will move its position to the focused GameObject's.
+
+/// Mouse & Gizmos Picking
+
+You can use the mouse to select GameObjects by clicking on them in the game window.
+Doing so now shows a simple gizmos from to translate, rotate, or scale the selected GameObject.
+The current selected Transform mode is shown on the window's menu bar, with the appriopriate Gizmos shape shown repsectively.
+
+To deselect the GameObject, press ESC or click on the Hierarchy window.
+
+/// Translate, Rotation & Scaling through Gizmos
+
+You can toggle between the 3 modes using the "W" (translate), "E" (Rotation) & "R" (scaling) keys.
+
+The selected GameObject can be translated by clicking & dragging along the red & green lines for the X and Y axis respectively. The blue square can be used to drag the GameObject around along both axis.
+
+Rotation is only supported through the Z-axis, and is bounded from -360° to +360°.
+Click within the red circle, and drag the mouse cursor left or right to go counter-clockwise or clockwise.
+
+Scaling controls is similar to that for translations. However, instead of a blue square, there is a white one in the intersection of the two lines. Clicking and dragging the mouse cursor away from it will scale it uniformly on both axes. As of its iteration, there is a very slight edge case, where dragging on the white square to a certain distance away may cause the transform && AABB boundary coordinates to turn into NaN values.
+
+Note that mouse picking currently doesn't account for overlapping GameObjects, where it only selects the front most object.
+
+/// Undo / Redo System
+
+CTRL + Z to undo & CTRL + Y to redo any translation / rotation / scaling of previously selected game objects.
+
+/// Animator
+
+TBC
+
+/// Spritesheet Textures
+
+TBC
+
+/// Layering
+
+TBC
+
+----------------------------------------------------------------
+Warnings:
+The only warnings that exist are likely from libraries.

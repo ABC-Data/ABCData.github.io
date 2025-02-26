@@ -1,0 +1,17 @@
+ID: 20
+Texture Handle: Icons
+Texture UV MIN: 0.000000, 1141.000000
+Texture UV MAX: 168.000000, 1304.000000
+Tooltip Texture Handle: EquipTooltips
+Tooltip Texture UV MIN: 0.000000, 5400.000000
+Tooltip Texture UV MAX: 695.000000, 6750.000000
+Tooltip Dimensions: 695.000000, 1350.000000
+Weight: 20
+Name: Padded Jacket
+Type: Equipment
+Lore: A jacket padded with metal. Perfect for taking hits.;
+Slot: BODY
+Physical Resistance: 0.2
+Stun Resistance: 0.1
+Bleed Resistance: 0.2
+Set: Improvised

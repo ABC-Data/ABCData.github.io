@@ -1,0 +1,19 @@
+ID: 6
+Texture Handle: Icons
+Texture UV MIN: 0.000000, 978.000000
+Texture UV MAX: 168.000000, 1141.000000
+Tooltip Texture Handle: WCTooltips
+Tooltip Texture UV MIN: 0.000000, 2365.000000
+Tooltip Texture UV MAX: 695.000000, 3335.000000
+Tooltip Dimensions: 695.000000, 970.000000
+Weight: 5
+Name: Parang
+Type: Weapon
+Lore: Looks old and rusted but is still sharp.;
+Weapon Type: Melee
+Status Effect: Bleed
+Damage: 30
+Crit Chance: 0.1
+Crit Damage: 1.3
+Accuracy: 0.8
+AP Cost: 35

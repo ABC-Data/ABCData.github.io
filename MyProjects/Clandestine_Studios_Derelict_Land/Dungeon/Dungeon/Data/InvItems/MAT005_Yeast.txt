@@ -1,0 +1,12 @@
+ID: 31
+Texture Handle: Icons
+Texture UV MIN: 0.000000, 0.000000
+Texture UV MAX: 168.000000, 163.000000
+Tooltip Texture Handle: MaterialTooltips
+Tooltip Texture UV MIN: 0.000000, 0.000000
+Tooltip Texture UV MAX: 695.000000, 395.000000
+Tooltip Dimensions: 695.000000, 395.000000
+Weight: 0
+Name: Yeast
+Type: Material
+Lore: How do you even see these without a microscope?!;

@@ -1,0 +1,17 @@
+ID: 15
+Texture Handle: Icons
+Texture UV MIN: 0.000000, 1467.000000
+Texture UV MAX: 168.000000, 1630.000000
+Tooltip Texture Handle: EquipTooltips
+Tooltip Texture UV MIN: 0.000000, 8100.000000
+Tooltip Texture UV MAX: 695.000000, 9450.000000
+Tooltip Dimensions: 695.000000, 1350.000000
+Weight: 20
+Name: Old Headband
+Type: Equipment
+Lore: Just an old headband.;
+Slot: HEAD
+Physical Resistance: 0.02
+Stun Resistance: 0.02
+Bleed Resistance: 0.02
+Set: Old

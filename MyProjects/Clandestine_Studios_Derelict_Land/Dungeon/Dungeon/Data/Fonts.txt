@@ -1,0 +1,6 @@
+Roboto ./Fonts/Roboto-Regular.ttf
+Custom ./Fonts/TestFont1-Regular.ttf
+ForSchool ./Fonts/Test2-Regular.ttf
+Dialogue ./Fonts/ForSchool-Regular.ttf
+Others ./Fonts/Killme-Regular.ttf
+Idk ./Fonts/Hgfjhgf-Regular.ttf

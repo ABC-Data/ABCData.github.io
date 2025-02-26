@@ -1,0 +1,17 @@
+ID: 26
+Texture Handle: Icons
+Texture UV MIN: 0.000000, 4075.000000
+Texture UV MAX: 168.000000, 4238.000000
+Tooltip Texture Handle: EquipTooltips
+Tooltip Texture UV MIN: 0.000000, 1350.000000
+Tooltip Texture UV MAX: 695.000000, 2700.000000
+Tooltip Dimensions: 695.000000, 1350.000000
+Weight: 20
+Name: Tactical Leather Combat Gloves
+Type: Equipment
+Lore: These gloves smell like sweat and hard work, ew.;
+Slot: GLOVES
+Physical Resistance: 0.11
+Stun Resistance: 0.08
+Bleed Resistance: 0.11
+Set: Soldier Strong

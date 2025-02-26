@@ -1,0 +1,15 @@
+ID: 13
+Texture Handle: Icons
+Texture UV MIN: 0.000000, 3260.000000
+Texture UV MAX: 168.000000, 3423.000000
+Tooltip Texture Handle: WCTooltips
+Tooltip Texture UV MIN: 0.000000, 6909.000000
+Tooltip Texture UV MAX: 695.000000, 7334.000000
+Tooltip Dimensions: 695.000000, 425.000000
+Weight: 20
+Name: Contact Lens
+Type: Consumable
+Lore: Increases Crit Chance by 5% for 2 seconds.;
+Effect: CRIT_CHANCE_BOOST
+Value: 1.05
+Duration: 2.0

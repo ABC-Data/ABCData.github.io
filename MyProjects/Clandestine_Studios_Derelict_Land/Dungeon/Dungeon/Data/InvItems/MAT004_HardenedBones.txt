@@ -1,0 +1,12 @@
+ID: 30
+Texture Handle: Icons
+Texture UV MIN: 0.000000, 2608.000000
+Texture UV MAX: 168.000000, 2771.000000
+Tooltip Texture Handle: MaterialTooltips
+Tooltip Texture UV MIN: 0.000000, 1975.000000
+Tooltip Texture UV MAX: 695.000000, 2370.000000
+Tooltip Dimensions: 695.000000, 395.000000
+Weight: 0
+Name: Hardened Bones
+Type: Material
+Lore: These bones came from the various mutated monsters around the wasteland.;

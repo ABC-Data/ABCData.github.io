@@ -1,0 +1,45 @@
+Name: CraftResultVFX
+Tag: Untagged
+Layer: UI
+Active: 1
+{
+Component: Transform
+Position: 800.00, 450.00, 0.935000
+Rotation Angle: 0.000000
+Rotation Speed: 0.000000
+Scale: 75.000000, 75.000000
+Dimensions: 166.00, 162.00
+}
+{
+Component: Logic
+Scripts: CraftVFX
+}
+{
+Component: GameUI
+FontFamily: TEST
+Text: -
+Font Size: 3.690000
+x_offset: 1.230000
+y_offset: 4.560000
+FontColor: 1.230000, 4.560000, 7.890000
+Alpha: 9.870000
+Visibility: 1
+Depth: 0.970000
+Line Spacing: 0
+}
+{
+Component: Renderer
+isVisible: 1
+isSpritesheet: 0
+No. of Sprites: 1
+Milliseconds Per Sprite: 300
+Texture Handle: GameUI
+Texture UV MIN: 0.000000, 2193.000000
+Texture UV MAX: 166.000000, 2355.000000
+RGB_0to1: 1.000000, 1.000000, 1.000000
+Alpha_0to1: 1.000000
+}
+{
+Component: Lifetime
+}
+###

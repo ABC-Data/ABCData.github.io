@@ -1,0 +1,17 @@
+ID: 18
+Texture Handle: Icons
+Texture UV MIN: 0.000000, 1304.000000
+Texture UV MAX: 168.000000, 1467.000000
+Tooltip Texture Handle: EquipTooltips
+Tooltip Texture UV MIN: 0.000000, 6750.000000
+Tooltip Texture UV MAX: 695.000000, 8100.000000
+Tooltip Dimensions: 695.000000, 1350.000000
+Weight: 20
+Name: Oven Mittens
+Type: Equipment
+Lore: Dirty old pair of Oven Mitts.;
+Slot: GLOVES
+Physical Resistance: 0.01
+Stun Resistance: 0.01
+Bleed Resistance: 0.01
+Set: Old

@@ -1,0 +1,22 @@
+This file details the project settings.
+
+Only Debug mode contains the level editor.
+Run Debug mode to run editor mode.
+Run Release to run game only mode.
+
+Demo Input:
+
+Click and drag (RMB/MMB) to pan the camera around the current scene environment. Alternatively, the I,J,K & L keys may be used as well.
+
+Click to select a GameObject in the hierarchy. There is also a filter at the top of the hierarchy avaliable. Filters in place checking for names and for components. A GameObject can be selected via clicking its name in the hierarchy or by mouse picking it in the GameWindow.
+
+Change the position, and scale of the GameObject via the Inspector or through dragging the mouse along the gizmos that appers when the GameObject is picked.
+A game object can be cloned by right clicking on its name in the hierarchy, then selecting the "Duplicate" option.
+
+Press CTRL+S to save the current level state to a file.
+
+Close and reopen the application and the level (provided you did not rename it) will load as it was when you saved it.
+
+Press the ' \ ' key to hide the logger.
+
+Note that the Camera object should not be deleted, as doing so may cause strange behaviour on the Camera, amounting to a crash, unless doing mouse picking on the game window.

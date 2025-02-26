@@ -1,0 +1,17 @@
+ID: 19
+Texture Handle: Icons
+Texture UV MIN: 0.000000, 2771.000000
+Texture UV MAX: 168.000000, 2934.000000
+Tooltip Texture Handle: EquipTooltips
+Tooltip Texture UV MIN: 0.000000, 10800.000000
+Tooltip Texture UV MAX: 695.000000, 12150.000000
+Tooltip Dimensions: 695.000000, 1350.000000
+Weight: 20
+Name: Durian Helmet
+Type: Equipment
+Lore: A helmet made of Durian. Not a fan of the smell.;
+Slot: HEAD
+Physical Resistance: 0.1
+Stun Resistance: 0.05
+Bleed Resistance: 0.1
+Set: Improvised

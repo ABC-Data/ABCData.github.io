@@ -1,0 +1,17 @@
+ID: 24
+Texture Handle: Icons
+Texture UV MIN: 0.000000, 2445.000000
+Texture UV MAX: 168.000000, 2608.000000
+Tooltip Texture Handle: EquipTooltips
+Tooltip Texture UV MIN: 0.000000, 9450.000000
+Tooltip Texture UV MAX: 695.000000, 10800.000000
+Tooltip Dimensions: 695.000000, 1350.000000
+Weight: 20
+Name: ILBV
+Type: Equipment
+Lore: There used to be snacks and drinks found in ILBVs.;
+Slot: BODY
+Physical Resistance: 0.30
+Stun Resistance: 0.25
+Bleed Resistance: 0.30
+Set: Soldier Strong

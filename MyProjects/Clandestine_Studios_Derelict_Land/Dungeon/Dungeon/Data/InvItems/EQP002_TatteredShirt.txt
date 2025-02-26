@@ -1,0 +1,17 @@
+ID: 16
+Texture Handle: Icons
+Texture UV MIN: 0.000000, 163.000000
+Texture UV MAX: 168.000000, 326.000000
+Tooltip Texture Handle: EquipTooltips
+Tooltip Texture UV MIN: 0.000000, 0.000000
+Tooltip Texture UV MAX: 695.000000, 1350.000000
+Tooltip Dimensions: 695.000000, 1350.000000
+Weight: 20
+Name: Tattered Shirt
+Type: Equipment
+Lore: Just a Tattered Shirt.;
+Slot: BODY
+Physical Resistance: 0.05
+Stun Resistance: 0.05
+Bleed Resistance: 0.05
+Set: Old

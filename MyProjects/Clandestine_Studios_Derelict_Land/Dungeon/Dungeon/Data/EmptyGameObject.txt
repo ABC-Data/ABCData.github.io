@@ -1,0 +1,13 @@
+Name: GameObject
+Tag: Untagged
+Layer: Default
+Active: 1
+{
+Component: Transform
+Position: 1.00, 1.00, 1.000000
+Rotation Angle: 0.000000
+Rotation Speed: 0.000000
+Scale: 1.000000, 1.000000
+Dimensions: 1.00, 1.00
+}
+###

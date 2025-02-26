@@ -1,0 +1,91 @@
+Level: Sandbox
+Bounds: -1400.000000, 9100.000000
+Name: Camera WITH SPACE
+Tag: Camera
+Layer: Default
+Active: 1
+{
+Component: Transform
+Position: 2327.70, 400.00, 0.000000
+Rotation Angle: 0.000000
+Rotation Speed: 0.000000
+Scale: 0.000000, 0.000000
+Dimensions: 0.00, 0.00
+}
+###
+Name: Background
+Tag: Untagged
+Layer: Default
+Active: 1
+{
+Component: Transform
+Position: 800.00, 450.00, 0.100000
+Rotation Angle: 0.000000
+Rotation Speed: 0.000000
+Scale: 200.000000, 50.000000
+Dimensions: 3000.00, 2000.00
+}
+{
+Component: GameUI
+FontFamily: TEST
+Text: -
+Font Size: 1.000000
+x_offset: 0.000000
+y_offset: 0.000000
+FontColor: 0.000000, 0.000000, 0.000000
+Alpha: 1.000000
+Visibility: 1
+Depth: 0.970000
+Line Spacing: 0
+}
+{
+Component: Renderer
+isVisible: 1
+isSpritesheet: 0
+No. of Sprites: 1
+Milliseconds Per Sprite: 300
+Texture Handle: CombatTemp
+Texture UV MIN: 0.000000, 0.000000
+Texture UV MAX: 4000.000000, 2250.000000
+RGB_0to1: 1.000000, 0.000000, 0.000000
+Alpha_0to1: 1.000000
+}
+###
+Name: Ground
+Tag: Untagged
+Layer: Default
+Active: 0
+{
+Component: Transform
+Position: 800.00, 319.00, 0.200000
+Rotation Angle: 0.000000
+Rotation Speed: 0.000000
+Scale: 200.000000, 25.000000
+Dimensions: 3000.00, 2000.00
+}
+{
+Component: GameUI
+FontFamily: TEST
+Text: -
+Font Size: 1.000000
+x_offset: 0.000000
+y_offset: 0.000000
+FontColor: 0.000000, 0.000000, 0.000000
+Alpha: 1.000000
+Visibility: 1
+Depth: 0.970000
+Line Spacing: 0
+}
+{
+Component: Renderer
+isVisible: 1
+isSpritesheet: 0
+No. of Sprites: 1
+Milliseconds Per Sprite: 300
+Texture Handle: Level1
+Texture UV MIN: 0.000000, 1080.000000
+Texture UV MAX: 11834.000000, 1536.000000
+RGB_0to1: 1.000000, 0.000000, 0.000000
+Alpha_0to1: 1.000000
+}
+###

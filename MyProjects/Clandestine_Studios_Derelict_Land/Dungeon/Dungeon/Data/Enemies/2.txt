@@ -1,0 +1,21 @@
+Name: CarMimic
+Background Texture Handle: Level2
+Position: 1572.00, 686.00
+Texture UV MIN: 0.000000, 582.000000
+Texture UV MAX: 7532.000000, 1162.000000
+Floor Texture Handle: Level2
+Floor UV MIN: 0.000000, 1163.000000
+Floor UV MAX: 11834.000000, 1743.000000
+Floor Position: 1016.00, 75.00
+Profile UV MIN: 0.000000, 221.000000
+Profile UV MAX: 219.000000, 442.000000
+Attack: 10.000000
+Current, Max HP: 100, 100
+Current, Max AP: 100.000000, 100.000000
+Physical Resistance: 0.200000
+Recovery Speed: 0.048000
+Hit Chance: 0.800000
+Critical Hit Chance: 0.500000
+Critical Hit Multiplier: 1.500000
+Enemy Attack Timer: -3.000000
+Item Drop: 27, 28, 32

@@ -1,0 +1,53 @@
+Level: IntroCutscene
+Bounds: 1077.592285, 1077.592285
+Name: Camera
+Tag: Camera
+Layer: Default
+Active: 1
+{
+Component: Transform
+Position: 977.59, 500.00, 0.000000
+Rotation Angle: 0.000000
+Rotation Speed: 0.000000
+Scale: 0.000000, 0.000000
+Dimensions: 0.00, 0.00
+}
+###
+Name: IntroCutscene
+Tag: UI
+Layer: Default
+Active: 1
+{
+Component: Transform
+Position: 800.00, 450.00, 0.990000
+Rotation Angle: 0.000000
+Rotation Speed: 0.000000
+Scale: 100.000000, 100.000000
+Dimensions: 3200.00, 1800.00
+}
+{
+Component: GameUI
+FontFamily: Dialogue
+Text: -
+Font Size: 0.900000
+x_offset: -600.000000
+y_offset: -400.000000
+FontColor: 1.230000, 4.560000, 7.890000
+Alpha: 0.000000
+Visibility: 1
+Depth: 0.970000
+Line Spacing: 0
+}
+{
+Component: Renderer
+isVisible: 1
+isSpritesheet: 0
+No. of Sprites: 1
+Milliseconds Per Sprite: 300
+Texture Handle: IntroCutscene
+Texture UV MIN: 0.000000, 0.000000
+Texture UV MAX: 3940.000000, 2160.000000
+RGB_0to1: 1.000000, 1.000000, 1.000000
+Alpha_0to1: 1.000000
+}
+###

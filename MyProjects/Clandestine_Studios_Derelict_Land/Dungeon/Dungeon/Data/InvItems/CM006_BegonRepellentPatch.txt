@@ -1,0 +1,15 @@
+ID: 12
+Texture Handle: Icons
+Texture UV MIN: 0.000000, 2082.000000
+Texture UV MAX: 168.000000, 2245.000000
+Tooltip Texture Handle: Items
+Tooltip Texture UV MIN: 0.000000, 0.000000
+Tooltip Texture UV MAX: 528.000000, 563.000000
+Tooltip Dimensions: 528.000000, 563.000000
+Weight: 20
+Name: Begon Repellent Patch
+Type: Consumable
+Lore: Evades the next hidden enemy.;
+Effect: EVASION
+Value: 0.0
+Duration: 0.0
