@@ -1,0 +1,38 @@
+Name: DiscardItemConfirm
+Tag: Untagged
+Layer: UI
+Active: 1
+{
+Component: Transform
+Position: 800.00, 40.00, 0.937000
+Rotation Angle: 0.000000
+Rotation Speed: 0.000000
+Scale: 75.000000, 75.000000
+Dimensions: 166.00, 162.00
+}
+{
+Component: GameUI
+FontFamily: Dialogue
+Text: Really discard this item? RIGHT CLICK again to confirm
+Font Size: 1.000
+x_offset: -450.000
+y_offset: 0.000
+FontColor: 1.000000, 0.000000, 0.000000
+Alpha: 1.00000
+Visibility: 1
+Depth: 0.970000
+Line Spacing: 0
+}
+{
+Component: Renderer
+isVisible: 0
+isSpritesheet: 0
+No. of Sprites: 1
+Milliseconds Per Sprite: 300
+Texture Handle: GameUI
+Texture UV MIN: 0.000000, 2193.000000
+Texture UV MAX: 166.000000, 2355.000000
+RGB_0to1: 1.000000, 1.000000, 1.000000
+Alpha_0to1: 1.000000
+}
+###

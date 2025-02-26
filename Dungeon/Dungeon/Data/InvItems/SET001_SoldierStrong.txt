@@ -1,0 +1,4 @@
+Name: Soldier Strong
+IDs: 23 24 25 26
+2 Set: 20 0.0
+4 Set: 0 20.0

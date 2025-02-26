@@ -1,0 +1,43 @@
+"./Audio/BGM/TutorialBGM.mp3" 1
+"./Audio/BGM/TutorialBGM2.mp3" 1
+"./Audio/BGM/MainMenuBGM.mp3" 1
+"./Audio/BGM/Hub.mp3" 1
+"./Audio/BGM/CombatBGM.mp3" 1
+"./Audio/BGM/PlayEvery1.714SecondsAfterCombatStarts.mp3" 0
+"./Audio/SFX/Enemies/EMY004 Idle (Stagger 2 seconds).mp3" 0
+"./Audio/SFX/Enemies/EMY005 Idle.mp3" 0
+"./Audio/SFX/Player/Combat/Attack/AttackSound_Crit.mp3" 0
+"./Audio/SFX/Player/Combat/Attack/AttackSound_Normal.mp3" 0
+"./Audio/SFX/Player/Combat/Miss/Miss - Both Attack and Getting Hit.mp3" 0
+"./Audio/SFX/Music transition_SFX.mp3" 0
+"./Audio/SFX/Menu-Transition-button_SFX.mp3" 0
+"./Audio/SFX/Player/Combat/Attack/Battle_AttackLand_Crit.mp3" 0
+"./Audio/SFX/Player/Combat/Attack/Battle_AttackLand_Normal.mp3" 0
+"./Audio/SFX/Player/Combat/Battle_Block.mp3" 0
+"./Audio/SFX/Player/Combat/Battle_Enemy001_Hit.mp3" 0
+"./Audio/SFX/Player/Combat/Battle_Ranged_WeaponFire_SFX.mp3" 0
+"./Audio/SFX/Player/Combat/Flee_Fail.mp3" 0
+"./Audio/SFX/Player/Combat/Flee_Pass.mp3" 0
+"./Audio/SFX/Player/Exploration/Environment_Mud_Running.mp3" 1
+"./Audio/SFX/Player/Exploration/Environment_Rain_NoTreble.mp3" 1
+"./Audio/SFX/Player/Exploration/Environment_Rain_Treble.mp3" 1
+"./Audio/SFX/UI/Cooking_Failure.mp3" 0
+"./Audio/SFX/UI/Cooking_InProgress.mp3" 0
+"./Audio/SFX/UI/Cooking_Success.mp3" 0
+"./Audio/SFX/UI/Crafting_Item_SFX.mp3" 0
+"./Audio/SFX/UI/Crafting_Item_SFX_AnvilClinkOnly.mp3" 0
+"./Audio/SFX/UI/Crafting_Item_SFX_SawsOnly.mp3" 0
+"./Audio/SFX/UI/Crafting_Successful.mp3" 0
+"./Audio/SFX/UI/General_Button_Clicked_SFX.mp3" 0
+"./Audio/SFX/UI/Inventory_Equipping.mp3" 0
+"./Audio/SFX/UI/Quest_Completed.mp3" 0
+"./Audio/SFX/UI/Quest_Completed_2.mp3" 0
+"./Audio/SFX/UI/LoseCombat.mp3" 0
+"./Audio/SFX/UI/WinCombat.mp3" 0
+"./Audio/SFX/Player/Exploration/Footstep_1.mp3" 0
+"./Audio/SFX/Player/Exploration/Footstep_2.mp3" 0
+"./Audio/SFX/Player/Exploration/Footstep_3.mp3" 0
+"./Audio/SFX/Player/Exploration/Footstep_4.mp3" 0
+"./Audio/SFX/Player/Exploration/Footstep_5.mp3" 0
+"./Audio/SFX/Player/Exploration/Footstep_6.mp3" 0
+"./Audio/BGM/Cutscene VO.mp3" 0

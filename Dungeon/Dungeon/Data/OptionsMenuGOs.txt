@@ -1,0 +1,114 @@
+Name: OptionsMenu_fromTXT
+Tag: Untagged
+Layer: Default
+Active: 1
+{
+Component: Transform
+Position: 985.00, 462.00, 0.645000
+Rotation Angle: 0.000000
+Rotation Speed: 0.000000
+Scale: 70.000000, 180.000000
+Dimensions: 1920.00, 324.00
+}
+{
+Component: GameUI
+FontFamily: TEST
+Text: -
+Font Size: 3.690000
+x_offset: 1.230000
+y_offset: 4.560000
+FontColor: 1.230000, 4.560000, 7.890000
+Alpha: 9.870000
+Visibility: 1
+Depth: 0.970000
+Line Spacing: 0
+}
+{
+Component: Renderer
+isVisible: 0
+isSpritesheet: 0
+No. of Sprites: 1
+Milliseconds Per Sprite: 300
+Texture Handle: OptionsMenu
+Texture UV MIN: 0.000000, 0.000000
+Texture UV MAX: 1920.000000, 323.000000
+RGB_0to1: 1.000000, 1.000000, 1.000000
+Alpha_0to1: 1.000000
+}
+###
+Name: SoundControlOverall_fromTXT
+Tag: Untagged
+Layer: Default
+Active: 1
+{
+Component: Transform
+Position: 985.00, 422.00, 0.684000
+Rotation Angle: 0.000000
+Rotation Speed: 0.000000
+Scale: 80.000000, 80.000000
+Dimensions: 1339.00, 106.00
+}
+{
+Component: GameUI
+FontFamily: TEST
+Text: -
+Font Size: 3.690000
+x_offset: 1.230000
+y_offset: 4.560000
+FontColor: 1.230000, 4.560000, 7.890000
+Alpha: 9.870000
+Visibility: 1
+Depth: 0.970000
+Line Spacing: 0
+}
+{
+Component: Renderer
+isVisible: 0
+isSpritesheet: 0
+No. of Sprites: 1
+Milliseconds Per Sprite: 300
+Texture Handle: OptionsMenu
+Texture UV MIN: 0.000000, 429.000000
+Texture UV MAX: 1337.000000, 534.000000
+RGB_0to1: 1.000000, 1.000000, 1.000000
+Alpha_0to1: 1.000000
+}
+###
+Name: SoundControlPointer_fromTXT
+Tag: Untagged
+Layer: Default
+Active: 1
+{
+Component: Transform
+Position: 1005.00, 422.00, 0.755000
+Rotation Angle: 0.000000
+Rotation Speed: 0.000000
+Scale: 80.000000, 80.000000
+Dimensions: 79.00, 104.00
+}
+{
+Component: GameUI
+FontFamily: TEST
+Text: -
+Font Size: 3.690000
+x_offset: 1.230000
+y_offset: 4.560000
+FontColor: 1.230000, 4.560000, 7.890000
+Alpha: 9.870000
+Visibility: 1
+Depth: 0.970000
+Line Spacing: 0
+}
+{
+Component: Renderer
+isVisible: 0
+isSpritesheet: 0
+No. of Sprites: 1
+Milliseconds Per Sprite: 300
+Texture Handle: OptionsMenu
+Texture UV MIN: 0.000000, 324.000000
+Texture UV MAX: 80.000000, 429.000000
+RGB_0to1: 1.000000, 1.000000, 1.000000
+Alpha_0to1: 1.000000
+}
+###

@@ -1,0 +1,21 @@
+Name: Ghoul
+Background Texture Handle: Level1
+Position: 6556.00, 530.00
+Texture UV MIN: 0.000000, 0.000000
+Texture UV MAX: 13022.000000, 1080.000000
+Floor Texture Handle: Level1
+Floor UV MIN: 0.000000, 1080.000000
+Floor UV MAX: 11834.000000, 1536.000000
+Floor Position: 1036.00, 375.00
+Profile UV MIN: 0.000000, 0.000000
+Profile UV MAX: 219.000000, 221.000000
+Attack: 8.000000
+Current, Max HP: 50, 50
+Current, Max AP: 100.000000, 100.000000
+Physical Resistance: 0.100000
+Recovery Speed: 0.080000
+Hit Chance: 0.800000
+Critical Hit Chance: 0.100000
+Critical Hit Multiplier: 1.500000
+Enemy Attack Timer: -6.000000
+Item Drop: 27, 9, 31

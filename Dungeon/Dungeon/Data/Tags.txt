@@ -1,0 +1,27 @@
+Tags:
+  - Untagged
+  - Text
+  - InventoryTile
+  - Item
+  - Highlighter
+  - Manager
+  - Player's HP Bar
+  - Player's AP Bar
+  - Enemy's HP Bar
+  - Enemy's AP Bar
+  - Enemy
+  - Player's Dmg Txt
+  - Enemy's Dmg Txt
+  - Player UI
+  - Enemy UI
+  - MainCB
+  - Trigger
+  - Interactable
+  - Hub_Story
+  - Hub_Crafting
+  - ArmorTile
+  - CIB
+  - EIB
+  - MIB
+  - WIB
+  - Camera

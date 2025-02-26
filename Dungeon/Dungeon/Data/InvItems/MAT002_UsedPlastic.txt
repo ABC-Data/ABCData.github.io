@@ -1,0 +1,12 @@
+ID: 28
+Texture Handle: Icons
+Texture UV MIN: 0.000000, 5216.000000
+Texture UV MAX: 168.000000, 5379.000000
+Tooltip Texture Handle: MaterialTooltips
+Tooltip Texture UV MIN: 0.000000, 395.000000
+Tooltip Texture UV MAX: 695.000000, 790.000000
+Tooltip Dimensions: 695.000000, 395.000000
+Weight: 0
+Name: Used Plastic
+Type: Material
+Lore: In a post-apocalyptic wasteland, we reuse, reduce and recycle.;

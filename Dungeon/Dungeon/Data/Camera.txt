@@ -1,0 +1,10 @@
+1
+Name: Camera
+Position: 0.0, 0.0
+Rotation Angle: 0
+Rotation Speed: 0.0
+Scale: 0, 0
+Dimensions: 0, 0
+Solid: 0
+Inverse Mass: 0.0
+Force: 0.0

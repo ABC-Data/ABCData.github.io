@@ -1,0 +1,915 @@
+Level: DEBUG1
+Bounds: -1400.000000, 3000.000000
+Name: Camera WITH SPACE
+Tag: Camera
+Layer: Default
+Active: 1
+{
+Component: Transform
+Position: 1077.59, 400.00, 0.000000
+Rotation Angle: 0.000000
+Rotation Speed: 0.000000
+Scale: 0.000000, 0.000000
+Dimensions: 0.00, 0.00
+}
+###
+Name: Background
+Tag: Untagged
+Layer: Default
+Active: 1
+{
+Component: Transform
+Position: 800.00, 450.00, 0.100000
+Rotation Angle: 0.000000
+Rotation Speed: 0.000000
+Scale: 200.000000, 50.000000
+Dimensions: 3000.00, 2000.00
+}
+{
+Component: GameUI
+FontFamily: TEST
+Text: -
+Font Size: 3.690000
+x_offset: 1.230000
+y_offset: 4.560000
+FontColor: 1.230000, 4.560000, 7.890000
+Alpha: 9.870000
+Visibility: 1
+Depth: 0.970000
+Line Spacing: 0
+}
+{
+Component: Renderer
+isVisible: 1
+isSpritesheet: 0
+No. of Sprites: 1
+Milliseconds Per Sprite: 300
+Texture Handle: Level1
+Texture UV MIN: 0.000000, 3240.000000
+Texture UV MAX: 13022.000000, 4320.000000
+RGB_0to1: 1.000000, 1.000000, 1.000000
+Alpha_0to1: 1.000000
+}
+###
+Name: Foreground
+Tag: Untagged
+Layer: Default
+Active: 1
+{
+Component: Transform
+Position: 800.00, 410.00, 0.800000
+Rotation Angle: 0.000000
+Rotation Speed: 0.000000
+Scale: 200.000000, 50.000000
+Dimensions: 3000.00, 2000.00
+}
+{
+Component: GameUI
+FontFamily: TEST
+Text: -
+Font Size: 3.690000
+x_offset: 1.230000
+y_offset: 4.560000
+FontColor: 1.230000, 4.560000, 7.890000
+Alpha: 9.870000
+Visibility: 1
+Depth: 0.970000
+Line Spacing: 0
+}
+{
+Component: Renderer
+isVisible: 1
+isSpritesheet: 0
+No. of Sprites: 1
+Milliseconds Per Sprite: 300
+Texture Handle: Level1
+Texture UV MIN: 0.000000, 2160.000000
+Texture UV MAX: 13022.000000, 3240.000000
+RGB_0to1: 1.000000, 1.000000, 1.000000
+Alpha_0to1: 1.000000
+}
+###
+Name: Ground
+Tag: Untagged
+Layer: Default
+Active: 1
+{
+Component: Transform
+Position: 800.00, 155.00, 0.200000
+Rotation Angle: 0.000000
+Rotation Speed: 0.000000
+Scale: 200.000000, 25.000000
+Dimensions: 3000.00, 2000.00
+}
+{
+Component: GameUI
+FontFamily: TEST
+Text: -
+Font Size: 3.690000
+x_offset: 1.230000
+y_offset: 4.560000
+FontColor: 1.230000, 4.560000, 7.890000
+Alpha: 9.870000
+Visibility: 1
+Depth: 0.970000
+Line Spacing: 0
+}
+{
+Component: Renderer
+isVisible: 1
+isSpritesheet: 0
+No. of Sprites: 1
+Milliseconds Per Sprite: 300
+Texture Handle: Level1
+Texture UV MIN: 0.000000, 1080.000000
+Texture UV MAX: 13022.000000, 2160.000000
+RGB_0to1: 1.000000, 1.000000, 1.000000
+Alpha_0to1: 1.000000
+}
+###
+Name: Yu
+Tag: Untagged
+Layer: Player
+Active: 1
+{
+Component: Transform
+Position: 1091.67, 400.00, 0.300000
+Rotation Angle: 0.000000
+Rotation Speed: 70.400002
+Scale: 90.000000, 90.000000
+Dimensions: 306.00, 610.00
+}
+{
+Component: RigidBody
+Solid: 1
+Inverse Mass: 15.000000
+Force: 1000.000000
+}
+{
+Component: Collision
+}
+{
+Component: Logic
+Scripts: Camfollow,MMovement,Inventory,CheatCodes
+}
+{
+Component: GameUI
+FontFamily: TEST
+Text: -
+Font Size: 3.690000
+x_offset: 1.230000
+y_offset: 4.560000
+FontColor: 1.230000, 4.560000, 7.890000
+Alpha: 9.870000
+Visibility: 1
+Depth: 0.970000
+Line Spacing: 0
+}
+{
+Component: Renderer
+isVisible: 1
+isSpritesheet: 1
+No. of Sprites: 1
+Milliseconds Per Sprite: 300
+Texture Handle: Yu
+Texture UV MIN: 0.000000, 0.000000
+Texture UV MAX: 1.000000, 1.000000
+RGB_0to1: 1.000000, 1.000000, 1.000000
+Alpha_0to1: 1.000000
+}
+{
+Component: LogicTargets
+Logic Target IDs: 0 5|
+}
+{
+Component: Inventory
+Inventory: 6 {0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}
+}
+###
+Name: Mi
+Tag: Untagged
+Layer: Default
+Active: 1
+{
+Component: Transform
+Position: 3000.00, 400.00, 0.300000
+Rotation Angle: 0.000000
+Rotation Speed: 70.400002
+Scale: 90.000000, 90.000000
+Dimensions: 306.00, 610.00
+}
+{
+Component: RigidBody
+Solid: 0
+Inverse Mass: 5.000000
+Force: 1000.000000
+}
+{
+Component: Collision
+}
+{
+Component: GameUI
+FontFamily: TEST
+Text: -
+Font Size: 3.690000
+x_offset: 1.230000
+y_offset: 4.560000
+FontColor: 1.230000, 4.560000, 7.890000
+Alpha: 9.870000
+Visibility: 1
+Depth: 0.970000
+Line Spacing: 0
+}
+{
+Component: Renderer
+isVisible: 1
+isSpritesheet: 1
+No. of Sprites: 1
+Milliseconds Per Sprite: 300
+Texture Handle: Ghoul
+Texture UV MIN: 0.000000, 0.000000
+Texture UV MAX: 1.000000, 1.000000
+RGB_0to1: 1.000000, 1.000000, 1.000000
+Alpha_0to1: 1.000000
+}
+###
+Name: Play/Pause Button
+Tag: Untagged
+Layer: UI
+Active: 1
+{
+Component: Transform
+Position: 1526.00, 850.00, 0.950000
+Rotation Angle: 0.000000
+Rotation Speed: 70.400002
+Scale: 25.000000, 25.000000
+Dimensions: 400.00, 400.00
+}
+{
+Component: Logic
+Scripts: UIFunctions
+}
+{
+Component: GameUI
+FontFamily: TEST
+Text: -
+Font Size: 3.690000
+x_offset: 1.230000
+y_offset: 4.560000
+FontColor: 1.230000, 4.560000, 7.890000
+Alpha: 9.870000
+Visibility: 1
+Depth: 0.970000
+Line Spacing: 0
+}
+{
+Component: Renderer
+isVisible: 1
+isSpritesheet: 0
+No. of Sprites: 1
+Milliseconds Per Sprite: 300
+Texture Handle: GameUI
+Texture UV MIN: 0.000000, 4280.000000
+Texture UV MAX: 87.000000, 4367.000000
+RGB_0to1: 1.000000, 1.000000, 1.000000
+Alpha_0to1: 1.000000
+}
+{
+Component: LogicTargets
+Logic Target IDs: 7 8 9|
+}
+###
+Name: Resume Game Button
+Tag: Untagged
+Layer: UI
+Active: 1
+{
+Component: Transform
+Position: 800.00, 562.00, 0.950000
+Rotation Angle: 0.000000
+Rotation Speed: 70.400002
+Scale: 25.000000, 25.000000
+Dimensions: 1816.00, 300.00
+}
+{
+Component: Logic
+Scripts: UIFunctions
+}
+{
+Component: GameUI
+FontFamily: TEST
+Text: -
+Font Size: 3.690000
+x_offset: 1.230000
+y_offset: 4.560000
+FontColor: 1.230000, 4.560000, 7.890000
+Alpha: 9.870000
+Visibility: 1
+Depth: 0.970000
+Line Spacing: 0
+}
+{
+Component: Renderer
+isVisible: 0
+isSpritesheet: 0
+No. of Sprites: 1
+Milliseconds Per Sprite: 300
+Texture Handle: GameUI
+Texture UV MIN: 0.000000, 4107.000000
+Texture UV MAX: 530.000000, 4193.000000
+RGB_0to1: 1.000000, 1.000000, 1.000000
+Alpha_0to1: 1.000000
+}
+###
+Name: How To Play Button
+Tag: Untagged
+Layer: UI
+Active: 1
+{
+Component: Transform
+Position: 800.00, 458.00, 0.950000
+Rotation Angle: 0.000000
+Rotation Speed: 70.400002
+Scale: 25.000000, 25.000000
+Dimensions: 1816.00, 300.00
+}
+{
+Component: Logic
+Scripts: UIFunctions
+}
+{
+Component: GameUI
+FontFamily: TEST
+Text: -
+Font Size: 3.690000
+x_offset: 1.230000
+y_offset: 4.560000
+FontColor: 1.230000, 4.560000, 7.890000
+Alpha: 9.870000
+Visibility: 1
+Depth: 0.970000
+Line Spacing: 0
+}
+{
+Component: Renderer
+isVisible: 0
+isSpritesheet: 0
+No. of Sprites: 1
+Milliseconds Per Sprite: 300
+Texture Handle: GameUI
+Texture UV MIN: 0.000000, 4021.000000
+Texture UV MAX: 530.000000, 4107.000000
+RGB_0to1: 1.000000, 1.000000, 1.000000
+Alpha_0to1: 1.000000
+}
+{
+Component: LogicTargets
+Logic Target IDs: 6 7 8 9 13|
+}
+###
+Name: Quit Game Button
+Tag: Untagged
+Layer: UI
+Active: 1
+{
+Component: Transform
+Position: 800.00, 342.00, 0.950000
+Rotation Angle: 0.000000
+Rotation Speed: 70.400002
+Scale: 28.000000, 25.000000
+Dimensions: 1600.00, 300.00
+}
+{
+Component: Logic
+Scripts: UIFunctions
+}
+{
+Component: GameUI
+FontFamily: TEST
+Text: -
+Font Size: 3.690000
+x_offset: 1.230000
+y_offset: 4.560000
+FontColor: 1.230000, 4.560000, 7.890000
+Alpha: 9.870000
+Visibility: 1
+Depth: 0.970000
+Line Spacing: 0
+}
+{
+Component: Renderer
+isVisible: 0
+isSpritesheet: 0
+No. of Sprites: 1
+Milliseconds Per Sprite: 300
+Texture Handle: GameUI
+Texture UV MIN: 0.000000, 3935.000000
+Texture UV MAX: 530.000000, 4021.000000
+RGB_0to1: 1.000000, 1.000000, 1.000000
+Alpha_0to1: 1.000000
+}
+{
+Component: LogicTargets
+Logic Target IDs: 6 7 8 9 10 11 12|
+}
+###
+Name: Quit Game Confirmation
+Tag: Untagged
+Layer: UI
+Active: 1
+{
+Component: Transform
+Position: 800.00, 437.00, 0.951000
+Rotation Angle: 0.000000
+Rotation Speed: 70.400002
+Scale: 28.000000, 25.000000
+Dimensions: 1916.00, 1644.00
+}
+{
+Component: GameUI
+FontFamily: TEST
+Text: -
+Font Size: 3.690000
+x_offset: 1.230000
+y_offset: 4.560000
+FontColor: 1.230000, 4.560000, 7.890000
+Alpha: 9.870000
+Visibility: 1
+Depth: 0.970000
+Line Spacing: 0
+}
+{
+Component: Renderer
+isVisible: 0
+isSpritesheet: 0
+No. of Sprites: 1
+Milliseconds Per Sprite: 300
+Texture Handle: GameUI
+Texture UV MIN: 0.000000, 2697.000000
+Texture UV MAX: 816.000000, 3220.000000
+RGB_0to1: 1.000000, 1.000000, 1.000000
+Alpha_0to1: 1.000000
+}
+###
+Name: Quit Game Yes
+Tag: Untagged
+Layer: UI
+Active: 1
+{
+Component: Transform
+Position: 672.00, 400.00, 0.952000
+Rotation Angle: 0.000000
+Rotation Speed: 70.400002
+Scale: 28.000000, 25.000000
+Dimensions: 600.00, 300.00
+}
+{
+Component: Logic
+Scripts: UIFunctions
+}
+{
+Component: GameUI
+FontFamily: TEST
+Text: -
+Font Size: 3.690000
+x_offset: 1.230000
+y_offset: 4.560000
+FontColor: 1.230000, 4.560000, 7.890000
+Alpha: 9.870000
+Visibility: 1
+Depth: 0.970000
+Line Spacing: 0
+}
+{
+Component: Renderer
+isVisible: 0
+isSpritesheet: 0
+No. of Sprites: 1
+Milliseconds Per Sprite: 300
+Texture Handle: GameUI
+Texture UV MIN: 0.000000, 3220.000000
+Texture UV MAX: 176.000000, 3300.000000
+RGB_0to1: 1.000000, 1.000000, 1.000000
+Alpha_0to1: 1.000000
+}
+###
+Name: Quit Game No
+Tag: Untagged
+Layer: UI
+Active: 1
+{
+Component: Transform
+Position: 928.00, 400.00, 0.952000
+Rotation Angle: 0.000000
+Rotation Speed: 70.400002
+Scale: 28.000000, 25.000000
+Dimensions: 600.00, 300.00
+}
+{
+Component: Logic
+Scripts: UIFunctions
+}
+{
+Component: GameUI
+FontFamily: TEST
+Text: -
+Font Size: 3.690000
+x_offset: 1.230000
+y_offset: 4.560000
+FontColor: 1.230000, 4.560000, 7.890000
+Alpha: 9.870000
+Visibility: 1
+Depth: 0.970000
+Line Spacing: 0
+}
+{
+Component: Renderer
+isVisible: 0
+isSpritesheet: 0
+No. of Sprites: 1
+Milliseconds Per Sprite: 300
+Texture Handle: GameUI
+Texture UV MIN: 0.000000, 3300.000000
+Texture UV MAX: 176.000000, 3380.000000
+RGB_0to1: 1.000000, 1.000000, 1.000000
+Alpha_0to1: 1.000000
+}
+{
+Component: LogicTargets
+Logic Target IDs: 6 10 11|
+}
+###
+Name: HowToPlay Screen
+Tag: Untagged
+Layer: UI
+Active: 1
+{
+Component: Transform
+Position: 800.00, 450.00, 0.953000
+Rotation Angle: 0.000000
+Rotation Speed: 70.400002
+Scale: 28.000000, 25.000000
+Dimensions: 5716.00, 3600.00
+}
+{
+Component: Logic
+Scripts: UIFunctions
+}
+{
+Component: GameUI
+FontFamily: TEST
+Text: -
+Font Size: 3.690000
+x_offset: 1.230000
+y_offset: 4.560000
+FontColor: 1.230000, 4.560000, 7.890000
+Alpha: 9.870000
+Visibility: 1
+Depth: 0.970000
+Line Spacing: 0
+}
+{
+Component: Renderer
+isVisible: 0
+isSpritesheet: 0
+No. of Sprites: 1
+Milliseconds Per Sprite: 300
+Texture Handle: HowToPlay
+Texture UV MIN: 0.000000, 4950.000000
+Texture UV MAX: 4400.000000, 7425.000000
+RGB_0to1: 1.000000, 1.000000, 1.000000
+Alpha_0to1: 1.000000
+}
+{
+Component: LogicTargets
+Logic Target IDs: 6 7 8 9|
+}
+###
+Name: Bag Icon
+Tag: Untagged
+Layer: UI
+Active: 1
+{
+Component: Transform
+Position: 1400.00, 850.00, 0.953000
+Rotation Angle: 0.000000
+Rotation Speed: 0.000000
+Scale: 115.000000, 115.000000
+Dimensions: 87.00, 87.00
+}
+{
+Component: Logic
+Scripts: UIFunctions
+}
+{
+Component: GameUI
+FontFamily: TEST
+Text: -
+Font Size: 3.690000
+x_offset: 1.230000
+y_offset: 4.560000
+FontColor: 1.230000, 4.560000, 7.890000
+Alpha: 9.870000
+Visibility: 1
+Depth: 0.970000
+Line Spacing: 0
+}
+{
+Component: Renderer
+isVisible: 1
+isSpritesheet: 0
+No. of Sprites: 1
+Milliseconds Per Sprite: 300
+Texture Handle: GameUI
+Texture UV MIN: 0.000000, 4454.000000
+Texture UV MAX: 87.000000, 4541.000000
+RGB_0to1: 1.000000, 1.000000, 1.000000
+Alpha_0to1: 1.000000
+}
+###
+Name: Inventory
+Tag: Untagged
+Layer: UI
+Active: 1
+{
+Component: Transform
+Position: 1050.00, 700.00, 0.953000
+Rotation Angle: 0.000000
+Rotation Speed: 0.000000
+Scale: 75.000000, 75.000000
+Dimensions: 541.00, 352.00
+}
+{
+Component: Logic
+Scripts: UIFunctions
+}
+{
+Component: GameUI
+FontFamily: TEST
+Text: -
+Font Size: 3.690000
+x_offset: 1.230000
+y_offset: 4.560000
+FontColor: 1.230000, 4.560000, 7.890000
+Alpha: 9.870000
+Visibility: 1
+Depth: 0.970000
+Line Spacing: 0
+}
+{
+Component: Renderer
+isVisible: 0
+isSpritesheet: 0
+No. of Sprites: 1
+Milliseconds Per Sprite: 300
+Texture Handle: GameUI
+Texture UV MIN: 0.000000, 2355.000000
+Texture UV MAX: 541.000000, 2697.000000
+RGB_0to1: 1.000000, 1.000000, 1.000000
+Alpha_0to1: 1.000000
+}
+###
+Name: Single Top Left
+Tag: Untagged
+Layer: UI
+Active: 1
+{
+Component: Transform
+Position: 300.00, 500.00, 0.953000
+Rotation Angle: 0.000000
+Rotation Speed: 0.000000
+Scale: 75.000000, 75.000000
+Dimensions: 166.00, 162.00
+}
+{
+Component: Logic
+Scripts: UIFunctions
+}
+{
+Component: GameUI
+FontFamily: TEST
+Text: -
+Font Size: 3.690000
+x_offset: 1.230000
+y_offset: 4.560000
+FontColor: 1.230000, 4.560000, 7.890000
+Alpha: 9.870000
+Visibility: 1
+Depth: 0.970000
+Line Spacing: 0
+}
+{
+Component: Renderer
+isVisible: 0
+isSpritesheet: 0
+No. of Sprites: 1
+Milliseconds Per Sprite: 300
+Texture Handle: GameUI
+Texture UV MIN: 0.000000, 2193.000000
+Texture UV MAX: 166.000000, 2355.000000
+RGB_0to1: 1.000000, 1.000000, 1.000000
+Alpha_0to1: 1.000000
+}
+###
+Name: Single Top Right
+Tag: Untagged
+Layer: UI
+Active: 1
+{
+Component: Transform
+Position: 500.00, 500.00, 0.953000
+Rotation Angle: 0.000000
+Rotation Speed: 0.000000
+Scale: 75.000000, 75.000000
+Dimensions: 166.00, 162.00
+}
+{
+Component: Logic
+Scripts: UIFunctions
+}
+{
+Component: GameUI
+FontFamily: TEST
+Text: -
+Font Size: 3.690000
+x_offset: 1.230000
+y_offset: 4.560000
+FontColor: 1.230000, 4.560000, 7.890000
+Alpha: 9.870000
+Visibility: 1
+Depth: 0.970000
+Line Spacing: 0
+}
+{
+Component: Renderer
+isVisible: 0
+isSpritesheet: 0
+No. of Sprites: 1
+Milliseconds Per Sprite: 300
+Texture Handle: GameUI
+Texture UV MIN: 0.000000, 2193.000000
+Texture UV MAX: 166.000000, 2355.000000
+RGB_0to1: 1.000000, 1.000000, 1.000000
+Alpha_0to1: 1.000000
+}
+###
+Name: Single Bottom Left
+Tag: Untagged
+Layer: UI
+Active: 1
+{
+Component: Transform
+Position: 300.00, 300.00, 0.953000
+Rotation Angle: 0.000000
+Rotation Speed: 0.000000
+Scale: 75.000000, 75.000000
+Dimensions: 166.00, 162.00
+}
+{
+Component: Logic
+Scripts: UIFunctions
+}
+{
+Component: GameUI
+FontFamily: TEST
+Text: -
+Font Size: 3.690000
+x_offset: 1.230000
+y_offset: 4.560000
+FontColor: 1.230000, 4.560000, 7.890000
+Alpha: 9.870000
+Visibility: 1
+Depth: 0.970000
+Line Spacing: 0
+}
+{
+Component: Renderer
+isVisible: 0
+isSpritesheet: 0
+No. of Sprites: 1
+Milliseconds Per Sprite: 300
+Texture Handle: GameUI
+Texture UV MIN: 0.000000, 2193.000000
+Texture UV MAX: 166.000000, 2355.000000
+RGB_0to1: 1.000000, 1.000000, 1.000000
+Alpha_0to1: 1.000000
+}
+###
+Name: Single Bottom Right
+Tag: Untagged
+Layer: UI
+Active: 1
+{
+Component: Transform
+Position: 500.00, 300.00, 0.953000
+Rotation Angle: 0.000000
+Rotation Speed: 0.000000
+Scale: 75.000000, 75.000000
+Dimensions: 166.00, 162.00
+}
+{
+Component: Logic
+Scripts: UIFunctions
+}
+{
+Component: GameUI
+FontFamily: TEST
+Text: -
+Font Size: 3.690000
+x_offset: 1.230000
+y_offset: 4.560000
+FontColor: 1.230000, 4.560000, 7.890000
+Alpha: 9.870000
+Visibility: 1
+Depth: 0.970000
+Line Spacing: 0
+}
+{
+Component: Renderer
+isVisible: 0
+isSpritesheet: 0
+No. of Sprites: 1
+Milliseconds Per Sprite: 300
+Texture Handle: GameUI
+Texture UV MIN: 0.000000, 2193.000000
+Texture UV MAX: 166.000000, 2355.000000
+RGB_0to1: 1.000000, 1.000000, 1.000000
+Alpha_0to1: 1.000000
+}
+###
+Name: RENDERER TEST GO
+Tag: Untagged
+Layer: UI
+Active: 1
+{
+Component: Transform
+Position: 1330.69, 400.00, 0.953000
+Rotation Angle: 0.000000
+Rotation Speed: 0.000000
+Scale: 75.000000, 75.000000
+Dimensions: 166.00, 162.00
+}
+{
+Component: GameUI
+FontFamily: TEST
+Text: -
+Font Size: 3.690000
+x_offset: 1.230000
+y_offset: 4.560000
+FontColor: 1.230000, 4.560000, 7.890000
+Alpha: 9.870000
+Visibility: 1
+Depth: 0.970000
+Line Spacing: 0
+}
+{
+Component: Renderer
+isVisible: 0
+isSpritesheet: 0
+No. of Sprites: 1
+Milliseconds Per Sprite: 300
+Texture Handle: -
+Texture UV MIN: 0.000000, 0.000000
+Texture UV MAX: 1.000000, 1.000000
+RGB_0to1: 1.000000, 1.000000, 1.000000
+Alpha_0to1: 1.000000
+}
+###
+Name: UI FONT TEST GO
+Tag: Untagged
+Layer: UI
+Active: 1
+{
+Component: Transform
+Position: 1254.69, 400.00, 0.953000
+Rotation Angle: 0.000000
+Rotation Speed: 0.000000
+Scale: 75.000000, 75.000000
+Dimensions: 166.00, 162.00
+}
+{
+Component: GameUI
+FontFamily: Roboto
+Text: Test2
+Font Size: 1.000000
+x_offset: -37.799999
+y_offset: -12.700000
+FontColor: 1.000000, 0.000000, 0.000000
+Alpha: 1.000000
+Visibility: 1
+Depth: 0.970000
+Line Spacing: 0
+}
+{
+Component: Renderer
+isVisible: 1
+isSpritesheet: 0
+No. of Sprites: 1
+Milliseconds Per Sprite: 300
+Texture Handle: -
+Texture UV MIN: 0.000000, 0.000000
+Texture UV MAX: 1.000000, 1.000000
+RGB_0to1: 1.000000, 1.000000, 1.000000
+Alpha_0to1: 1.000000
+}
+###

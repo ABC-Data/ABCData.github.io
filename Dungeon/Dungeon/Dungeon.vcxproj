@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{655d5a81-856e-42ba-8602-361ed58a1a60}</ProjectGuid>
+    <RootNamespace>Dungeon</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Derelict Land</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Property page\opengl-glfw3-glew-glm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Property page\opengl-glfw3-glew-glm.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(SolutionDir)3rdParty\freetype-2.12.1\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)3rdParty\freetype-2.12.1\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(SolutionDir)3rdParty\freetype-2.12.1\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)3rdParty\freetype-2.12.1\;$(LibraryPath)</LibraryPath>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Source;$(SolutionDir)\3rdParty\glad\include;$(SolutionDir)\3rdParty\glfw-3.3.3\include;$(SolutionDir)\3rdParty\imgui;</AdditionalIncludeDirectories>
+      <DisableLanguageExtensions>false</DisableLanguageExtensions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent />
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Source;$(SolutionDir)\3rdParty\glad\include;$(SolutionDir)\3rdParty\glfw-3.3.3\include;$(SolutionDir)\3rdParty\imgui;</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\3rdParty\imgui\imgui.cpp" />
+    <ClCompile Include="..\3rdParty\imgui\imgui_demo.cpp" />
+    <ClCompile Include="..\3rdParty\imgui\imgui_draw.cpp" />
+    <ClCompile Include="..\3rdParty\imgui\imgui_impl_glfw.cpp" />
+    <ClCompile Include="..\3rdParty\imgui\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="..\3rdParty\imgui\imgui_stdlib.cpp" />
+    <ClCompile Include="..\3rdParty\imgui\imgui_tables.cpp" />
+    <ClCompile Include="..\3rdParty\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="..\Source\Animation\Animate.cpp" />
+    <ClCompile Include="..\Source\Animation\Animation.cpp" />
+    <ClCompile Include="..\Source\Audio\Audio.cpp" />
+    <ClCompile Include="..\Source\Collision\Collision.cpp" />
+    <ClCompile Include="..\Source\CoreSys\Core.cpp" />
+    <ClCompile Include="..\Source\CoreSys\MasterObjects.cpp" />
+    <ClCompile Include="..\Source\CoreSys\PerformanceViewer.cpp" />
+    <ClCompile Include="..\Source\Deserializer\Deserializer.cpp" />
+    <ClCompile Include="..\Source\Editor\Editor.cpp" />
+    <ClCompile Include="..\Source\Editor\UI\Console\Console.cpp" />
+    <ClCompile Include="..\Source\Editor\UI\FileBrowser\FileBrowser.cpp" />
+    <ClCompile Include="..\Source\Editor\UI\GameWindow\GameWindow.cpp" />
+    <ClCompile Include="..\Source\Editor\UI\Hierarchy\Hierarchy.cpp" />
+    <ClCompile Include="..\Source\Editor\UI\Logger\Logger.cpp" />
+    <ClCompile Include="..\Source\Editor\UI\MenuBar\MenuBar.cpp" />
+    <ClCompile Include="..\Source\Editor\UI\PropertyEditor\PropertyEditor.cpp" />
+    <ClCompile Include="..\Source\Factory\Factory.cpp" />
+    <ClCompile Include="..\Source\GameObject\GameObject.cpp" />
+    <ClCompile Include="..\Source\GameUI\GameUI.cpp" />
+    <ClCompile Include="..\Source\Graphics\AssetManager.cpp" />
+    <ClCompile Include="..\Source\Graphics\BatchRendering.cpp" />
+    <ClCompile Include="..\Source\Graphics\Camera.cpp" />
+    <ClCompile Include="..\Source\Graphics\Fonts.cpp" />
+    <ClCompile Include="..\Source\Graphics\FrameBuffer.cpp" />
+    <ClCompile Include="..\Source\Graphics\GLFWsetup.cpp" />
+    <ClCompile Include="..\Source\Graphics\glslshader.cpp" />
+    <ClCompile Include="..\Source\Graphics\Graphics.cpp" />
+    <ClCompile Include="..\Source\Graphics\Texture.cpp" />
+    <ClCompile Include="..\Source\Input\Input.cpp" />
+    <ClCompile Include="..\Source\Level\ControllerComponent.cpp" />
+    <ClCompile Include="..\Source\Level\Level.cpp" />
+    <ClCompile Include="..\Source\Lighting\Lighting.cpp" />
+    <ClCompile Include="..\Source\Logic\Logic.cpp" />
+    <ClCompile Include="..\Source\Logic\Script.cpp" />
+    <ClCompile Include="..\Source\Main.cpp" />
+    <ClCompile Include="..\Source\Math\Matrix3x3.cpp" />
+    <ClCompile Include="..\Source\Math\Vector2D.cpp" />
+    <ClCompile Include="..\Source\Math\Vector3D.cpp" />
+    <ClCompile Include="..\Source\Math\Vector4D.cpp" />
+    <ClCompile Include="..\Source\Physics\Physics.cpp" />
+    <ClCompile Include="..\Source\Renderer\Renderer.cpp" />
+    <ClCompile Include="..\Source\RigidBody\RigidBody.cpp" />
+    <ClCompile Include="..\Source\SceneManager\SceneManager.cpp" />
+    <ClCompile Include="..\Source\Scripts\CombatComponent.cpp" />
+    <ClCompile Include="..\Source\Scripts\EnemyComponent.cpp" />
+    <ClCompile Include="..\Source\Scripts\InventoryComponent.cpp" />
+    <ClCompile Include="..\Source\Scripts\LifetimeComponent.cpp" />
+    <ClCompile Include="..\Source\Serializer\Serializer.cpp" />
+    <ClCompile Include="..\Source\Transform\Transform.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\3rdParty\imgui\imconfig.h" />
+    <ClInclude Include="..\3rdParty\imgui\imgui.h" />
+    <ClInclude Include="..\3rdParty\imgui\imgui_impl_glfw.h" />
+    <ClInclude Include="..\3rdParty\imgui\imgui_impl_opengl3.h" />
+    <ClInclude Include="..\3rdParty\imgui\imgui_impl_opengl3_loader.h" />
+    <ClInclude Include="..\3rdParty\imgui\imgui_internal.h" />
+    <ClInclude Include="..\3rdParty\imgui\imgui_stdlib.h" />
+    <ClInclude Include="..\3rdParty\imgui\imstb_rectpack.h" />
+    <ClInclude Include="..\3rdParty\imgui\imstb_textedit.h" />
+    <ClInclude Include="..\3rdParty\imgui\imstb_truetype.h" />
+    <ClInclude Include="..\Source\Animation\Animate.h" />
+    <ClInclude Include="..\Source\Animation\Animation.h" />
+    <ClInclude Include="..\Source\Audio\Audio.h" />
+    <ClInclude Include="..\Source\Collision\Collision.h" />
+    <ClInclude Include="..\Source\CoreSys\Core.h" />
+    <ClInclude Include="..\Source\CoreSys\MasterObjects.h" />
+    <ClInclude Include="..\Source\CoreSys\PerformanceViewer.h" />
+    <ClInclude Include="..\Source\Deserializer\Deserializer.h" />
+    <ClInclude Include="..\Source\Editor\IMGUIHeaders.h" />
+    <ClInclude Include="..\Source\Editor\UI\Console\Console.h" />
+    <ClInclude Include="..\Source\Editor\UI\Editor.h" />
+    <ClInclude Include="..\Source\Editor\UI\FileBrowser\FileBrowser.h" />
+    <ClInclude Include="..\Source\Editor\UI\GameWindow\GameWindow.h" />
+    <ClInclude Include="..\Source\Editor\UI\Hierarchy\Hierarchy.h" />
+    <ClInclude Include="..\Source\Editor\UI\Logger\Logger.h" />
+    <ClInclude Include="..\Source\Editor\UI\MenuBar\MenuBar.h" />
+    <ClInclude Include="..\Source\Editor\UI\PropertyEditor\PropertyEditor.h" />
+    <ClInclude Include="..\Source\Essential.h" />
+    <ClInclude Include="..\Source\Factory\Factory.h" />
+    <ClInclude Include="..\Source\GameObject\Component.h" />
+    <ClInclude Include="..\Source\GameObject\GameObject.h" />
+    <ClInclude Include="..\Source\GameUI\GameUI.h" />
+    <ClInclude Include="..\Source\Graphics\AssetManager.h" />
+    <ClInclude Include="..\Source\Graphics\BatchRendering.h" />
+    <ClInclude Include="..\Source\Graphics\Camera.h" />
+    <ClInclude Include="..\Source\Graphics\Fonts.h" />
+    <ClInclude Include="..\Source\Graphics\FrameBuffer.h" />
+    <ClInclude Include="..\Source\Graphics\GLFWsetup.h" />
+    <ClInclude Include="..\Source\Graphics\glslshader.h" />
+    <ClInclude Include="..\Source\Graphics\Graphics.h" />
+    <ClInclude Include="..\Source\Graphics\Texture.h" />
+    <ClInclude Include="..\Source\Input\Input.h" />
+    <ClInclude Include="..\Source\Input\Keycodes.h" />
+    <ClInclude Include="..\Source\Input\MouseCodes.h" />
+    <ClInclude Include="..\Source\Level\ControllerComponent.h" />
+    <ClInclude Include="..\Source\Level\Level.h" />
+    <ClInclude Include="..\Source\Lighting\Lighting.h" />
+    <ClInclude Include="..\Source\Logic\Logic.h" />
+    <ClInclude Include="..\Source\Logic\LogicTargets.h" />
+    <ClInclude Include="..\Source\Logic\Script.h" />
+    <ClInclude Include="..\Source\Math\BMath.h" />
+    <ClInclude Include="..\Source\Math\Matrix3x3.h" />
+    <ClInclude Include="..\Source\Math\Vector2D.h" />
+    <ClInclude Include="..\Source\Math\Vector3D.h" />
+    <ClInclude Include="..\Source\Math\Vector4D.h" />
+    <ClInclude Include="..\Source\Physics\Physics.h" />
+    <ClInclude Include="..\Source\Renderer\Renderer.h" />
+    <ClInclude Include="..\Source\RigidBody\RigidBody.h" />
+    <ClInclude Include="..\Source\SceneManager\SceneManager.h" />
+    <ClInclude Include="..\Source\Scripts\AllScripts.h" />
+    <ClInclude Include="..\Source\Scripts\AnimationScripts.h" />
+    <ClInclude Include="..\Source\Scripts\BreatheEffect.h" />
+    <ClInclude Include="..\Source\Scripts\CheatCodes.h" />
+    <ClInclude Include="..\Source\Scripts\CombatComponent.h" />
+    <ClInclude Include="..\Source\Scripts\CombatController.h" />
+    <ClInclude Include="..\Source\Scripts\CombatEquipment.h" />
+    <ClInclude Include="..\Source\Scripts\CombatTutorialDialogue.h" />
+    <ClInclude Include="..\Source\Scripts\CombatUI.h" />
+    <ClInclude Include="..\Source\Scripts\Cooking.h" />
+    <ClInclude Include="..\Source\Scripts\Crafting.h" />
+    <ClInclude Include="..\Source\Scripts\CraftVFX.h" />
+    <ClInclude Include="..\Source\Scripts\Defeat.h" />
+    <ClInclude Include="..\Source\Scripts\EndingController.h" />
+    <ClInclude Include="..\Source\Scripts\EnemyAI.h" />
+    <ClInclude Include="..\Source\Scripts\EnemyComponent.h" />
+    <ClInclude Include="..\Source\Scripts\FlashingGameUIText.h" />
+    <ClInclude Include="..\Source\Scripts\Followmouse.h" />
+    <ClInclude Include="..\Source\Scripts\HubController.h" />
+    <ClInclude Include="..\Source\Scripts\Inventory.h" />
+    <ClInclude Include="..\Source\Scripts\InventoryComponent.h" />
+    <ClInclude Include="..\Source\Scripts\Camfollow.h" />
+    <ClInclude Include="..\Source\Scripts\InventoryZoom.h" />
+    <ClInclude Include="..\Source\Scripts\Level1Controller.h" />
+    <ClInclude Include="..\Source\Scripts\Level1Controller2.h" />
+    <ClInclude Include="..\Source\Scripts\Level1Controller3.h" />
+    <ClInclude Include="..\Source\Scripts\Level1Controller4.h" />
+    <ClInclude Include="..\Source\Scripts\Level1Controller5.h" />
+    <ClInclude Include="..\Source\Scripts\Level1Controller6.h" />
+    <ClInclude Include="..\Source\Scripts\LifetimeComponent.h" />
+    <ClInclude Include="..\Source\Scripts\MainMenu.h" />
+    <ClInclude Include="..\Source\Scripts\MainMenuController.h" />
+    <ClInclude Include="..\Source\Scripts\Mousemovement.h" />
+    <ClInclude Include="..\Source\Scripts\Combat.h" />
+    <ClInclude Include="..\Source\Scripts\OptionsMenu.h" />
+    <ClInclude Include="..\Source\Scripts\Tooltip.h" />
+    <ClInclude Include="..\Source\Scripts\TutorialController.h" />
+    <ClInclude Include="..\Source\Scripts\TypewriterEffect.h" />
+    <ClInclude Include="..\Source\Scripts\UIFunctions.h" />
+    <ClInclude Include="..\Source\Scripts\Victory.h" />
+    <ClInclude Include="..\Source\Serializer\Serializer.h" />
+    <ClInclude Include="..\Source\STL.h" />
+    <ClInclude Include="..\Source\System\System.h" />
+    <ClInclude Include="..\Source\Transform\Transform.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

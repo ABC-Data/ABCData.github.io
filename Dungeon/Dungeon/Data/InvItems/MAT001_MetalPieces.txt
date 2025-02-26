@@ -1,0 +1,12 @@
+ID: 27
+Texture Handle: Icons
+Texture UV MIN: 0.000000, 1793.000000
+Texture UV MAX: 168.000000, 1956.000000
+Tooltip Texture Handle: MaterialTooltips
+Tooltip Texture UV MIN: 0.000000, 1185.000000
+Tooltip Texture UV MAX: 695.000000, 1580.000000
+Tooltip Dimensions: 695.000000, 395.000000
+Weight: 0
+Name: Metal Pieces
+Type: Material
+Lore: Some scraps of metal from various sources.;

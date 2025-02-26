@@ -1,0 +1,12 @@
+ID: 33
+Texture Handle: Icons
+Texture UV MIN: 0.000000, 3586.000000
+Texture UV MAX: 168.000000, 3749.000000
+Tooltip Texture Handle: MaterialTooltips
+Tooltip Texture UV MIN: 0.000000, 2765.000000
+Tooltip Texture UV MAX: 695.000000, 3160.000000
+Tooltip Dimensions: 695.000000, 395.000000
+Weight: 0
+Name: Camp Pass
+Type: Material
+Lore: This pass gives you access into an army camp. What was it doing with that weird creature?;

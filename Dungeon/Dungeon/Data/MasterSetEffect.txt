@@ -1,0 +1,3 @@
+./Data/InvItems/SET001_SoldierStrong.txt
+./Data/InvItems/SET002_Improvised.txt
+./Data/InvItems/SET003_Old.txt

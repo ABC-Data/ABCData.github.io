@@ -1,0 +1,15 @@
+Level: Scene
+Bounds: 1000.000000, 9000.000000
+Name: Camera
+Tag: Camera
+Layer: Default
+Active: 1
+{
+Component: Transform
+Position: 0.000000, 0.000000, 0.000000
+Rotation Angle: 0.000000
+Rotation Speed: 0.000000
+Scale: 0.000000, 0.000000
+Dimensions: 0.000000, 0.000000
+}
+###

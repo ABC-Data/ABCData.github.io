@@ -1,0 +1,587 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\Source\Main.cpp" />
+    <ClCompile Include="..\Source\Factory\Factory.cpp">
+      <Filter>Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Audio\Audio.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\CoreSys\Core.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Collision\Collision.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\GameObject\GameObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Math\Matrix3x3.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Math\Vector2D.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Math\Vector3D.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Math\Vector4D.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Input\Input.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Physics\Physics.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\RigidBody\RigidBody.cpp">
+      <Filter>RigidBody</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Deserializer\Deserializer.cpp">
+      <Filter>Deserializer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Transform\Transform.cpp">
+      <Filter>Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Graphics\GLFWsetup.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Graphics\glslshader.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Graphics\Graphics.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Editor\UI\MenuBar\MenuBar.cpp">
+      <Filter>Editor\UI\MenuBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdParty\imgui\imgui.cpp">
+      <Filter>Editor\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdParty\imgui\imgui_draw.cpp">
+      <Filter>Editor\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdParty\imgui\imgui_tables.cpp">
+      <Filter>Editor\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdParty\imgui\imgui_widgets.cpp">
+      <Filter>Editor\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Editor\Editor.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdParty\imgui\imgui_stdlib.cpp">
+      <Filter>Editor\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdParty\imgui\imgui_demo.cpp">
+      <Filter>Editor\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Editor\UI\Hierarchy\Hierarchy.cpp">
+      <Filter>Editor\UI\Hierarchy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Editor\UI\PropertyEditor\PropertyEditor.cpp">
+      <Filter>Editor\UI\Property Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Editor\UI\Logger\Logger.cpp">
+      <Filter>Editor\UI\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdParty\imgui\imgui_impl_glfw.cpp">
+      <Filter>Editor\IMGUI\GLFW, OpenGL3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdParty\imgui\imgui_impl_opengl3.cpp">
+      <Filter>Editor\IMGUI\GLFW, OpenGL3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Graphics\BatchRendering.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Graphics\AssetManager.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Graphics\Texture.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Graphics\FrameBuffer.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\CoreSys\PerformanceViewer.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Editor\UI\GameWindow\GameWindow.cpp">
+      <Filter>Editor\UI\GameWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Graphics\Fonts.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Logic\Logic.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Graphics\Camera.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Serializer\Serializer.cpp">
+      <Filter>Serializer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\GameUI\GameUI.cpp">
+      <Filter>GameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Logic\Script.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Editor\UI\FileBrowser\FileBrowser.cpp">
+      <Filter>Editor\UI\FileBrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Editor\UI\Console\Console.cpp">
+      <Filter>Editor\UI\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Renderer\Renderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\SceneManager\SceneManager.cpp">
+      <Filter>SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\CoreSys\MasterObjects.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Scripts\InventoryComponent.cpp">
+      <Filter>Logic\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Scripts\CombatComponent.cpp">
+      <Filter>Logic\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Animation\Animation.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Level\Level.cpp">
+      <Filter>Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Level\ControllerComponent.cpp">
+      <Filter>Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Animation\Animate.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Scripts\EnemyComponent.cpp">
+      <Filter>Logic\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Scripts\LifetimeComponent.cpp">
+      <Filter>Logic\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Lighting\Lighting.cpp">
+      <Filter>Lighting</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Source\Factory\Factory.h">
+      <Filter>Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Audio\Audio.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\CoreSys\Core.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Collision\Collision.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\GameObject\Component.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\GameObject\GameObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Math\BMath.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Math\Matrix3x3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Math\Vector2D.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Math\Vector3D.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Math\Vector4D.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Input\Input.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Physics\Physics.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\RigidBody\RigidBody.h">
+      <Filter>RigidBody</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Deserializer\Deserializer.h">
+      <Filter>Deserializer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Essential.h">
+      <Filter>Essentials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\STL.h">
+      <Filter>Essentials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Input\MouseCodes.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Input\Keycodes.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Transform\Transform.h">
+      <Filter>Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Graphics\GLFWsetup.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Graphics\glslshader.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\System\System.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Graphics\Graphics.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Editor\UI\MenuBar\MenuBar.h">
+      <Filter>Editor\UI\MenuBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdParty\imgui\imstb_textedit.h">
+      <Filter>Editor\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdParty\imgui\imconfig.h">
+      <Filter>Editor\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdParty\imgui\imgui.h">
+      <Filter>Editor\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdParty\imgui\imgui_internal.h">
+      <Filter>Editor\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdParty\imgui\imstb_rectpack.h">
+      <Filter>Editor\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdParty\imgui\imstb_truetype.h">
+      <Filter>Editor\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Editor\UI\Editor.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdParty\imgui\imgui_stdlib.h">
+      <Filter>Editor\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Level\Level.h">
+      <Filter>Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Editor\UI\Hierarchy\Hierarchy.h">
+      <Filter>Editor\UI\Hierarchy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Editor\UI\PropertyEditor\PropertyEditor.h">
+      <Filter>Editor\UI\Property Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Editor\UI\Logger\Logger.h">
+      <Filter>Editor\UI\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Editor\IMGUIHeaders.h">
+      <Filter>Editor\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdParty\imgui\imgui_impl_glfw.h">
+      <Filter>Editor\IMGUI\GLFW, OpenGL3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdParty\imgui\imgui_impl_opengl3.h">
+      <Filter>Editor\IMGUI\GLFW, OpenGL3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdParty\imgui\imgui_impl_opengl3_loader.h">
+      <Filter>Editor\IMGUI\GLFW, OpenGL3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Graphics\BatchRendering.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Graphics\AssetManager.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Graphics\Texture.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Graphics\FrameBuffer.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\CoreSys\PerformanceViewer.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Editor\UI\GameWindow\GameWindow.h">
+      <Filter>Editor\UI\GameWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Graphics\Fonts.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Logic\Logic.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Logic\Script.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Logic\LogicTargets.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Graphics\Camera.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Serializer\Serializer.h">
+      <Filter>Serializer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\GameUI\GameUI.h">
+      <Filter>GameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Scripts\AllScripts.h">
+      <Filter>Logic\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Scripts\Combat.h">
+      <Filter>Logic\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Scripts\Camfollow.h">
+      <Filter>Logic\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Scripts\Mousemovement.h">
+      <Filter>Logic\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Editor\UI\FileBrowser\FileBrowser.h">
+      <Filter>Editor\UI\FileBrowser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Scripts\Inventory.h">
+      <Filter>Logic\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Scripts\InventoryComponent.h">
+      <Filter>Logic\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Scripts\UIFunctions.h">
+      <Filter>Logic\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Scripts\CombatComponent.h">
+      <Filter>Logic\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Scripts\CheatCodes.h">
+      <Filter>Logic\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Editor\UI\Console\Console.h">
+      <Filter>Editor\UI\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Renderer\Renderer.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\SceneManager\SceneManager.h">
+      <Filter>SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\CoreSys\MasterObjects.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Scripts\TutorialController.h">
+      <Filter>Logic\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Animation\Animation.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Level\ControllerComponent.h">
+      <Filter>Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Scripts\CombatController.h">
+      <Filter>Logic\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Scripts\Tooltip.h">
+      <Filter>Logic\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Scripts\EnemyAI.h">
+      <Filter>Logic\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Scripts\CombatUI.h">
+      <Filter>Logic\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Scripts\TypewriterEffect.h">
+      <Filter>Logic\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Scripts\MainMenu.h">
+      <Filter>Logic\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Animation\Animate.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Scripts\EnemyComponent.h">
+      <Filter>Logic\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Scripts\FlashingGameUIText.h">
+      <Filter>Logic\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Scripts\MainMenuController.h">
+      <Filter>Logic\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Scripts\BreatheEffect.h">
+      <Filter>Logic\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Scripts\Defeat.h">
+      <Filter>Logic\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Scripts\CombatTutorialDialogue.h">
+      <Filter>Logic\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Scripts\Victory.h">
+      <Filter>Logic\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Scripts\LifetimeComponent.h">
+      <Filter>Logic\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Scripts\InventoryZoom.h">
+      <Filter>Logic\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Scripts\HubController.h">
+      <Filter>Logic\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Scripts\AnimationScripts.h">
+      <Filter>Logic\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Scripts\Crafting.h">
+      <Filter>Logic\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Scripts\OptionsMenu.h">
+      <Filter>Logic\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Scripts\Level1Controller.h">
+      <Filter>Logic\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Lighting\Lighting.h">
+      <Filter>Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Scripts\CraftVFX.h">
+      <Filter>Logic\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Scripts\Cooking.h" />
+    <ClInclude Include="..\Source\Scripts\Followmouse.h">
+      <Filter>Logic\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Scripts\CombatEquipment.h">
+      <Filter>Logic\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Scripts\Level1Controller2.h">
+      <Filter>Logic\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Scripts\Level1Controller3.h">
+      <Filter>Logic\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Scripts\Level1Controller4.h">
+      <Filter>Logic\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Scripts\Level1Controller5.h">
+      <Filter>Logic\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Scripts\Level1Controller6.h">
+      <Filter>Logic\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Scripts\EndingController.h">
+      <Filter>Logic\Scripts</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Factory">
+      <UniqueIdentifier>{701f72a6-7b97-4739-8b23-fbc7d56fb253}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{d6cd4c7c-d752-4bfb-92cb-70d0b1597c93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{32af7ce1-3d5b-423c-b388-32919bfb62da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision">
+      <UniqueIdentifier>{68b3e7b1-6a7b-428b-a9ca-9e945e3f4166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{7b414c7e-1694-4258-a635-3e6b932da670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{803028e8-f59d-4128-920d-9c168b2b3a5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{69ff7abf-5e76-4b2d-b3d8-f0364b96f792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{04ea37e5-025a-47a7-aad6-c2e10eb92556}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RigidBody">
+      <UniqueIdentifier>{04d17606-96bc-4865-bf5e-d11c5688e4eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Essentials">
+      <UniqueIdentifier>{253c6eb8-9078-416f-89f8-b49cba626f00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Transform">
+      <UniqueIdentifier>{28e236e2-e030-4419-93ed-c949bec88444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{d36f38c5-9281-4ffc-8a5b-da13477fe48e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{8c27c608-58c0-4784-b22d-176545a3fb26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor">
+      <UniqueIdentifier>{3eec41ab-d1c1-46bc-8c65-6d48d4b34d1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\IMGUI">
+      <UniqueIdentifier>{4239f1c6-43c2-4caa-bc19-a99d38ac2ad8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\UI">
+      <UniqueIdentifier>{38ab04f3-95d9-4af7-b065-5dd6b3c7c928}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\UI\Logger">
+      <UniqueIdentifier>{47b12419-08c9-4498-aa82-5743a64e675c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\UI\MenuBar">
+      <UniqueIdentifier>{354e9f58-4e74-45c2-b251-5581066c4121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Level">
+      <UniqueIdentifier>{b02749a4-ef87-4c16-a0b2-69197c6aaf02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\UI\Hierarchy">
+      <UniqueIdentifier>{c384714e-d45a-4b07-ae63-b40739e5fc85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\UI\Property Editor">
+      <UniqueIdentifier>{b456ad22-d89b-4989-b431-bde839c0056d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\IMGUI\GLFW, OpenGL3">
+      <UniqueIdentifier>{0ba1ca2a-5fdd-43d8-9051-030a1478da9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\UI\GameWindow">
+      <UniqueIdentifier>{3e4c0669-6158-48b8-914d-f9a85cbe3c6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic">
+      <UniqueIdentifier>{f040b6c7-dc0f-46ae-b705-2947af09b458}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Deserializer">
+      <UniqueIdentifier>{c783412f-a327-4f8f-ae05-f5a70a4631ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Serializer">
+      <UniqueIdentifier>{8b71dd7c-3c1e-4992-91a7-6003142bbb36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameUI">
+      <UniqueIdentifier>{73d97d13-8569-40d1-a2ca-01d12bd8ee49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Scripts">
+      <UniqueIdentifier>{eafc4cc2-8664-4b19-8ca2-fadb24256367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\UI\FileBrowser">
+      <UniqueIdentifier>{64e30dae-92d3-4752-ad0a-d697e1037ab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\UI\Console">
+      <UniqueIdentifier>{0f3c2921-3c57-46ab-8de8-4739e9cd93f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{9a47d520-0668-46e9-a235-1d41ab39ec58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneManager">
+      <UniqueIdentifier>{054fd5ed-0b33-4e01-81b8-41ab18da154c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{5c75ec81-46ae-4084-95bc-6225d96be5ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lighting">
+      <UniqueIdentifier>{3dae7297-7bf0-418c-9607-8d5cad8dbb73}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

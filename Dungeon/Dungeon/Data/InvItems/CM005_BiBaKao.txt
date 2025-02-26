@@ -1,0 +1,15 @@
+ID: 11
+Texture Handle: Icons
+Texture UV MIN: 0.000000, 3912.000000
+Texture UV MAX: 168.000000, 4075.000000
+Tooltip Texture Handle: WCTooltips
+Tooltip Texture UV MIN: 0.000000, 7759.000000
+Tooltip Texture UV MAX: 695.000000, 8184.000000
+Tooltip Dimensions: 695.000000, 425.000000
+Weight: 20
+Name: Bi Ba Kao
+Type: Consumable
+Lore: Prevents you from getting status effects for 10 seconds.;
+Effect: STATUS_IMMUNE
+Value: 0.0
+Duration: 10.0
