@@ -45,6 +45,10 @@ Using Omega Engine created by the technical team of the project.
 
 ## Year 3	      	| Epilogue
 ![SneakPeek](images/Epilogue/TouchdownProductionLogo.png)
+<video width="640" height="360" controls autoplay muted loop>
+        <source src="videos/Epilogue_GameTrailer.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+ </video>
 ### Description:
 A first-person stealth game, casting players in the role of Olivier, a thief with the unique ability to manipulate time, slowing it down.
 Using Takeoff Engine created by the technical team of the project.
