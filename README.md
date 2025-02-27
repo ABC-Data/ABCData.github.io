@@ -9,7 +9,7 @@ I am an aspiring game developer/programmer currently studying as a student in Di
 - LinkedIn: https://www.linkedin.com/in/warrenangjunxuan/
 
 # Projects:
-## Year 1 part 1 	| ProjectGolf
+## ProjectGolf
 ![SneakPeek](images/ProjectGolf/Level1.gif)
 ### Description:
 A simple Mini-Golf game created using C-Processing library that is provided by Digipen.
@@ -18,7 +18,7 @@ A simple Mini-Golf game created using C-Processing library that is provided by D
 - Worked on the physics of the game.
 - Designing and implementation of stages.
 
-## Year 1 part 2 	| Waddle Crusaders
+## Waddle Crusaders
 ![SneakPeek](images/WaddleCrusaders/1.png)
 ![SneakPeek](images/WaddleCrusaders/2.png)
 ### Description:
@@ -29,7 +29,7 @@ Using Alpha Engine as provided by Digipen faculty.
 - Implementation of sound in the game using the FMOD library.
 - Implementation of a Input system with interactions to the keyboard.
 
-## Year 2	      	| Derelict Land
+## Derelict Land
 ![SneakPeek](images/DerelictLand/1.gif)
 ### Description:
 A 2D adventure side scroller with real-time 'turn-based' combat where players use items in their inventory to defeat enemies.
@@ -42,7 +42,7 @@ Using Omega Engine created by the technical team of the project.
 - Implementation of a Animation system to animate spritesheets.
 - Implementation of a Assets Manager for the management of all assets handled within the 2D Game Engine.
 
-## Year 3	      	| Epilogue
+## Epilogue
 ![SneakPeek](images/Epilogue/TouchdownProductionLogo.png)
 <video width="640" height="360" controls autoplay muted loop>
         <source src="videos/Epilogue_GameTrailer.mp4" type="video/mp4">
