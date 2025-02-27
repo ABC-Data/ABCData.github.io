@@ -9,6 +9,7 @@ I am an aspiring game developer/programmer currently studying as a student in Di
 - LinkedIn: https://www.linkedin.com/in/warrenangjunxuan/
 
 # Projects:
+
 ## ProjectGolf
 ![SneakPeek](images/ProjectGolf/Level1.gif)
 ### Description:
@@ -22,7 +23,7 @@ A simple Mini-Golf game created using C-Processing library that is provided by D
 ![SneakPeek](images/WaddleCrusaders/1.png)
 ![SneakPeek](images/WaddleCrusaders/2.png)
 ### Description:
-A 2D turn-based top-down tatical strategy game with varying levels, allowing players to choose from multiple unit types to bring into battle and arrange them to outsmart enemies. 
+A 2D turn-based top-down tactical strategy game with varying levels, allowing players to choose from multiple unit types to bring into battle and arrange them to outsmart enemies. 
 Using Alpha Engine as provided by Digipen faculty.
 ### What I have worked on:
 - Programmed in C++.
