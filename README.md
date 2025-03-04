@@ -23,7 +23,7 @@ A simple Mini-Golf game created using C-Processing library that is provided by D
 <video width="640" height="360" controls autoplay muted loop>
         <source src="videos/TeamCancelled_2min_WaddleCrusaders.mp4" type="video/mp4">
         Your browser does not support the video tag.
- </video>
+</video>
 ### Description:
 A 2D turn-based top-down tactical strategy game with varying levels, allowing players to choose from multiple unit types to bring into battle and arrange them to outsmart enemies. 
 Using Alpha Engine as provided by Digipen faculty.
@@ -34,6 +34,10 @@ Using Alpha Engine as provided by Digipen faculty.
 
 ## Derelict Land
 ![SneakPeek](images/DerelictLand/1.gif)
+<video width="640" height="360" controls autoplay muted loop>
+        <source src="videos/EditorTutorialVid.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+</video>
 ### Description:
 A 2D adventure side scroller with real-time 'turn-based' combat where players use items in their inventory to defeat enemies.
 Using Omega Engine created by the technical team of the project.
